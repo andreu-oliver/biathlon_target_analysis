@@ -1,0 +1,22 @@
+# Data (contains participant-level biometric data)
+/data
+*.tsv
+*.xlsx
+
+# Exports (generated outputs)
+/exports
+*.png
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Other project
+/glasses_study
+
+# Agent config
+AGENTS.md
